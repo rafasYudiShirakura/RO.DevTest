@@ -20,7 +20,7 @@ public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResponse> 
         if (user == null || !await _userManager.CheckPasswordAsync(user, request.Password)) {
             return null;
         }
-       
+        
         var roles = await _userManager.GetRolesAsync(user);
         var claims = new List<Claim> {
             new Claim(ClaimTypes.Name, user.UserName),

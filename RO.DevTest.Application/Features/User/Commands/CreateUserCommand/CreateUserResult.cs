@@ -5,7 +5,7 @@ public record CreateUserResult {
     public string UserName { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
-    public bool Success { get; set; };
+    public bool Success { get; set; }
 
     public CreateUserResult () { }
 

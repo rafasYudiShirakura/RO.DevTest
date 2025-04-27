@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - RO.DevTest</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script defer src="dashboard.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><button onclick="showSection('products')">Produtos</button></li>
+                <li><button onclick="showSection('users')">Usuários</button></li>
+            </ul>
+        </aside>
+        
+        <main class="main-content">
+            <section id="products" class="section active">
+                <h1>Estoque de Produtos</h1>
+                <div class="filters">
+                    <label for="product-sort">Ordenar por:</label>
+                    <select id="product-sort" class="filter-dropdown" onchange="filterProducts()">
+                        <option value="quantity">Quantidade</option>
+                        <option value="alphabetical">Ordem Alfabética</option>
+                    </select>
+                </div>
+                <button class="create-btn" onclick="createItem('produto')">Novo Produto</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Preço</th>
+                            <th>Estoque</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="products-body"> 
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="users" class="section">
+                <h1>Usuários</h1>
+                <div class="filters">
+                    <label for="user-sort">Ordenar por:</label>
+                    <select id="user-sort" class="filter-dropdown" onchange="filterUsers()">
+                        <option value="alphabetical">Ordem Alfabética</option>
+                    </select>
+                </div>
+                <button class="create-btn" onclick="createItem('usuario')">Novo Usuário</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome de Usuário</th>
+                            <th>Email</th>
+                            <th>Função</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="users-body">
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <div id="productModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('productModal')">&times;</span>
+                <h2>Novo Produto</h2>
+                <form id="productForm">
+                    <label for="productName">Nome:</label>
+                    <input type="text" id="productName" required>
+          
+                    <label for="productPrice">Preço:</label>
+                    <input type="number" id="productPrice" required>
+          
+                    <label for="productStock">Quantidade:</label>
+                    <input type="number" id="productStock" required>
+          
+                    <button type="submit" class="save-btn">Salvar Produto</button>
+                </form>
+            </div>
+          </div>
+          
+          <div id="userModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('userModal')">&times;</span>
+                <h2>Novo Usuário</h2>
+                <form id="userForm">
+                    <label for="userName">Nome:</label>
+                    <input type="text" id="userNameInput" required>
+          
+                    <label for="userPassword">Senha:</label>
+                    <input type="password" id="userPassword" required>
+          
+                    <label for="userRole">Cargo:</label>
+                    <input type="text" id="userRole" required>
+          
+                    <button type="submit" class="save-btn">Salvar Usuário</button>
+                </form>
+            </div>
+          </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\bin\Debug\net8.0\RO.DevTest.Domain.deps.json
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\bin\Debug\net8.0\RO.DevTest.Domain.dll
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\bin\Debug\net8.0\RO.DevTest.Domain.pdb
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\RO.DevTest.Domain.csproj.AssemblyReference.cache
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\RO.DevTest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\RO.DevTest.Domain.AssemblyInfoInputs.cache
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\RO.DevTest.Domain.AssemblyInfo.cs
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\RO.DevTest.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\RO.DevTest.Domain.dll
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\refint\RO.DevTest.Domain.dll
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\RO.DevTest.Domain.pdb
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Domain\obj\Debug\net8.0\ref\RO.DevTest.Domain.dll

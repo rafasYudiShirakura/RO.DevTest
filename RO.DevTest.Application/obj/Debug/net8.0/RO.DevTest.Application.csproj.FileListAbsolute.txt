@@ -1,0 +1,5 @@
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Application\obj\Debug\net8.0\RO.DevTest.Application.csproj.AssemblyReference.cache
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Application\obj\Debug\net8.0\RO.DevTest.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Application\obj\Debug\net8.0\RO.DevTest.Application.AssemblyInfoInputs.cache
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Application\obj\Debug\net8.0\RO.DevTest.Application.AssemblyInfo.cs
+C:\Users\rafas\Documents\ProcessoSeletivoRotas\RO.DevTest\RO.DevTest.Application\obj\Debug\net8.0\RO.DevTest.Application.csproj.CoreCompileInputs.cache

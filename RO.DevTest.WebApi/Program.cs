@@ -1,6 +1,9 @@
 using RO.DevTest.Application;
 using RO.DevTest.Infrastructure.IoC;
 using RO.DevTest.Persistence.IoC;
+using Microsoft.EntityFrameworkCore;
+using RO.DevTest.Persistence;
+
 
 namespace RO.DevTest.WebApi;
 
@@ -11,6 +14,8 @@ public class Program {
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+        builder.Services.AddDbContext<DefaultContext>(options =>
+            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         builder.Services.InjectPersistenceDependencies()
             .InjectInfrastructureDependencies();
